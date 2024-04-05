@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherAPP | Miguel</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <div class="card">
+        <div class="card-first">
+            <input type="search" name="search" id="search">
+            <button id="btnSearch"> Search</button>
+        </div>
+        <div class="card-second">
+            <h1 id="cityName"></h1><h2 id="temp"></h2>
+            <img src="images/rain.png" alt="rain pic">
+        </div>
+        <div class="card-third">
+            <div class="weather-info">
+                <img id="windspeedImg" src="images/wind.png" alt="windspeed">
+                <span id="windspeed"></span>
+            </div>
+            <div class="weather-info">
+                <img id="humidityImg" src="images/humidity.png" alt="humidity">
+                <span id="humidity"></span>
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts/index.js"></script>
+</body>
+</html>
